@@ -34,7 +34,50 @@ h1 {
     max-width: 100%;
 }
 
+/*
+@media (max-width: 768px) {
+    .table-container {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .table {
+        display: none;
+        /* Az asztali táblázatot elrejtjük */
+/*   }
+ 
+    .responsive-table {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .responsive-table .column {
+        background: #f8f9fa;
+        padding: 10px;
+        border: 2px solid white;
+    }
+
+    .responsive-table .column h4 {
+        background-color: #343a40;
+        color: white;
+        padding: 5px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .responsive-table .column ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .responsive-table .column ul li {
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+    }
+}
+*/
 @media (max-width: 768px) {
 
     .table,
@@ -73,6 +116,9 @@ h1 {
     }
 }
 
+
+
+
 .table th {
     background-color: #343a40;
     color: white;
@@ -103,32 +149,57 @@ h1 {
 }
 
 
-#staff-mobility tbody tr:nth-of-type(1) th {
+#staff-mobility thead th:nth-child(2) {
     background-color: #ffd569;
     color: black;
 }
 
-#staff-mobility tbody tr:nth-of-type(2) th {
+#staff-mobility thead th:nth-child(3) {
     background-color: #f48ee3;
     color: black;
 }
 
-#staff-mobility tbody tr:nth-of-type(3) th {
+#staff-mobility thead th:nth-child(4) {
     background-color: #9aadff;
     color: black;
 }
 
-#staff-mobility tbody tr:nth-of-type(4) th {
+#staff-mobility thead th:nth-child(5) {
     background-color: #b6b4b4;
     color: black;
 }
 
-#staff-mobility tbody tr:nth-of-type(5) th {
-    background: linear-gradient(0deg, rgb(241, 195, 151) 10%, rgb(155, 236, 94) 100%);
-    background-attachment: fixed;
+#staff-mobility thead th:nth-child(6) {
+    background-color: #ffb775;
     color: black;
 }
 
+/*
+#staff-mobility tbody th:nth-child(1) {
+    background-color: #ffd569;
+    color: black;
+}
+
+#staff-mobility tbody th:nth-child(2) {
+    background-color: #f48ee3;
+    color: black;
+}
+
+#staff-mobility tbody th:nth-child(3) {
+    background-color: #9aadff;
+    color: black;
+}
+
+#staff-mobility tbody th:nth-child(4) {
+    background-color: #b6b4b4;
+    color: black;
+}
+
+#staff-mobility tbody th:nth-child(5) {
+    background-color: #ffb775;
+    color: black;
+}
+*/
 table .first-column {
     background-color: #fdf9b4;
     color: black;
