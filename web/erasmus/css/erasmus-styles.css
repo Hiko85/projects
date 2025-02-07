@@ -84,6 +84,7 @@ h1 {
     color: #007bff;
     font-size: 1.2em;
     text-decoration: none;
+    align-self: flex-start;
 }
 
 .btn-link:hover {
@@ -100,6 +101,7 @@ h1 {
 */
 .collapse {
     margin-top: 5px;
+    transition: height 0.3s ease-out, opacity 0.3s ease-out;
 }
 
 
@@ -132,31 +134,54 @@ h1 {
 table .first-column {
     background-color: #fdf9b4;
     color: black;
+    /*height: 120px;
+     Állítsd be a megfelelő értéket */
+    vertical-align: top;
+    /* Ha a szöveg mindig felül legyen */
 }
 
 table .second-column {
     background-color: #ffc7ea;
     color: black;
+    /*height: 320px;
+     Állítsd be a megfelelő értéket */
+    vertical-align: top;
+    /* Ha a szöveg mindig felül legyen */
 }
 
 table .third-column {
     background-color: #bfd7ed;
     color: black;
+    vertical-align: middle;
 }
 
 table .none-column {
     background-color: #efefef;
     color: black;
+    vertical-align: middle;
 }
 
 table .fourth-column {
     background-color: #cdf2b0;
     color: black;
+    /* height: 350px;
+    Állítsd be a megfelelő értéket */
+    vertical-align: top;
+    /* Ha a szöveg mindig felül legyen */
 }
 
 table .fifth-column {
     background-color: #ffd8b5;
     color: black;
+    /*  height: 350px;
+     Állítsd be a megfelelő értéket */
+    vertical-align: top;
+    /* Ha a szöveg mindig felül legyen */
+}
+
+table .kiegeszitok {
+    vertical-align: middle;
+    /* Ha a szöveg mindig felül legyen */
 }
 
 #task1 .card-body {
