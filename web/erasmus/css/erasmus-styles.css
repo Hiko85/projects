@@ -274,8 +274,8 @@ table .kiegeszitok {
 }
 
 table .second-table-first-column {
-    background-color: #eab8fa;
-    color: black;
+    background-color: #000000;
+    color: lightgrey;
     /*height: 120px;
      Állítsd be a megfelelő értéket */
     vertical-align: top;
@@ -283,24 +283,24 @@ table .second-table-first-column {
 }
 
 table .second-table-second-column {
-    background-color: #910606;
-    color: white;
+    background-color: lightgrey;
+    color: black;
     /*height: 120px;
      Állítsd be a megfelelő értéket */
     vertical-align: top;
     /* Ha a szöveg mindig felül legyen */
 }
 
-.doclinks {
-    color: white;
+/* .doclinks {
+    color: rgb(157, 4, 4);
     font-size: 1.2em;
     align-self: flex-start;
 }
 
 .doclinks:hover {
     text-decoration: none;
-    color: #d4cd04;
-}
+    color: #17225b;
+} */
 
 #task9 .card-body {
     background-color: #e9ecef;
