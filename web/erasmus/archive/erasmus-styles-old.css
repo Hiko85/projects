@@ -8,12 +8,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-h2 {
-    font-size: 16px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-weight: bold;
-    padding: 15px;
-}
 
 .table {
     border-radius: 5px;
@@ -51,7 +45,6 @@ h2 {
     .table tr {
         display: block;
         width: 100%;
-        border: none;
     }
 
     .table thead tr {
@@ -59,12 +52,9 @@ h2 {
         /* Fejléc elrejtése mobilon */
     }
 
-    .table th {
-        border: 2px solid white;
-    }
-
     .table tr {
         margin-bottom: 15px;
+        border: 2px solid white;
         padding: 10px;
         background: #f8f9fa;
     }
@@ -73,8 +63,6 @@ h2 {
         text-align: left;
         padding: 10px;
         position: relative;
-        background-color: #f8f9fa;
-        border: 2px solid white;
     }
 
     .table td::before {
@@ -83,14 +71,6 @@ h2 {
         display: block;
         color: #343a40;
     }
-
-    .item1,
-    .item2 {
-        width: 100%;
-        flex-basis: 100%;
-
-    }
-
 }
 
 .table th {
@@ -314,24 +294,13 @@ table .second-table-second-column {
     flex-wrap: wrap;
     margin-left: 1rem;
     margin-right: 1rem;
-    gap: 1rem;
-    justify-content: space-between;
-
 }
 
-.item1,
-.item2 {
-    width: 48%;
-    /* Két oszlopba rendezi az elemeket */
-}
-
-.harmadik .item1,
-.harmadik .item2 {
+.harmadik .item1 {
     display: flex;
     flex-direction: column;
     background-color: #adb9f2;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem;
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: 3px 3px 18px rgb(0, 0, 0, 0.2);
@@ -342,7 +311,17 @@ table .second-table-second-column {
 }
 
 .harmadik .item2 {
+    display: flex;
+    flex-direction: column;
     background-color: #f5c7ee;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 18px rgb(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    flex-grow: 1;
+    flex-shrink: 1;
+
 }
 
 span.harmadik-gomb {
