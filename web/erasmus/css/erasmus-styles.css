@@ -112,6 +112,23 @@ h2 {
     color: #0056b3;
 }
 
+.otherbutton {
+    color: #7cf6f8;
+}
+
+.otherbutton .btn-link:hover {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.oszlopcim {
+    text-transform: uppercase;
+}
+
+.sorcim {
+    text-transform: uppercase;
+}
+
 /*.card-body {
     background-color: #e9ecef;
     border-left: 3px solid #007bff;
@@ -190,6 +207,10 @@ table .fourth-column {
     /* Ha a szöveg mindig felül legyen */
 }
 
+.figyelem {
+    text-indent: 2rem;
+}
+
 table .fifth-column {
     background-color: #ffd8b5;
     color: black;
@@ -262,34 +283,46 @@ table .kiegeszitok {
 
 #task9 .card-body {
     background-color: #e9ecef;
-    border-left: 3px solid #f59a4a;
+    color: black;
+    border-left: 3px solid #7cf6f8;
     padding: 10px;
     font-size: 0.95em;
 }
 
 
+
 #staff-mobility-second tbody th {
-    background-color: #bebcbc;
+    background-color: rgb(184, 216, 250);
     color: black;
 }
 
 table .second-table-first-column {
-    background-color: #000000;
-    color: lightgrey;
+
+    background-image: linear-gradient(to left bottom, #008f7a, #00908b, #00909a, #008fa7, #008db0, #008bb7, #0088bd, #0085c2, #0081c7, #007dcc, #1678cf, #2c73d2);
+    /* background-color: #112fc4; */
+    color: rgb(244, 244, 244);
     /*height: 120px;
      Állítsd be a megfelelő értéket */
-    vertical-align: top;
-    /* Ha a szöveg mindig felül legyen */
+    vertical-align: middle;
+    /* Ha a szöveg mindig középen legyen */
 }
 
 table .second-table-second-column {
-    background-color: lightgrey;
-    color: black;
+    background-image: linear-gradient(to left bottom, #70f0dd, #6cede5, #6be9ec, #6fe5f1, #75e1f4, #76ddf6, #79d8f8, #7dd3f8, #7dcdf8, #7fc6f8, #83bff7, #89b8f4);
+    /* background-image: linear-gradient(to right bottom, #845ec2, #a55dbd, #c15db5, #d95fab, #ec64a0, #f66b93, #fc7587, #ff807d, #ff8f72, #ffa168, #ffb461, #ffc75f); */
+    /* background-color: rgb(151, 199, 250); */
+    color: rgb(0, 0, 0);
     /*height: 120px;
      Állítsd be a megfelelő értéket */
-    vertical-align: top;
-    /* Ha a szöveg mindig felül legyen */
+    vertical-align: middle;
+    /* Ha a szöveg mindig középen legyen */
 }
+
+/*
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+ */
+/* background-image: linear-gradient(to right top, #845ec2, #d65db1, #ff6f91, #ff9671, #ffc75f, #f9f871); */
+/* background-image: linear-gradient(to left bottom, #845ec2, #a55dbd, #c15db5, #d95fab, #ec64a0, #f76e91, #fd7b84, #ff8a7a, #ffa26e, #ffbd66); */
 
 /* .doclinks {
     color: rgb(157, 4, 4);
@@ -302,12 +335,7 @@ table .second-table-second-column {
     color: #17225b;
 } */
 
-#task9 .card-body {
-    background-color: #e9ecef;
-    border-left: 3px solid #94137e;
-    padding: 10px;
-    font-size: 0.95em;
-}
+
 
 .harmadik {
     display: flex;
